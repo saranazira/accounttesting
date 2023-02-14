@@ -166,7 +166,7 @@ SWAGGER_SETTINGS = {
     }
 }
 
-STATIC_URL = 'static/packet_image/'
+STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
 
 
