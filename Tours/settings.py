@@ -176,7 +176,8 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://35.226.145.198'
+    'http://35.226.145.198',
+    'https://domain.com'
     
 ]
 
