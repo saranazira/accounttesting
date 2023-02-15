@@ -21,10 +21,10 @@ class RegistrationSerializer(serializers.Serializer):
             raise serializers.ValidationError('Пользователь с таким email уже существует')
         return email
     
-    def validate_name(self, name):
-        if len(name) > 15:
-            raise serializers.ValidationError('слишком длинный, максимальная длина 15 букв')
-        return name
+    # def validate_name(self, name):
+    #     if len(name) > 15:
+    #         raise serializers.ValidationError('слишком длинный, максимальная длина 15 букв')
+    #     return name
 
     def validate(self, attr):
         password = attr.get('password')
